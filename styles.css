@@ -1,12 +1,12 @@
 /*  your css code here. If applicable */
-.grid-container{
+#grid-container{
 	display:grid;
 	grid-template-columns:repeat(3,80px);
 	gap:5px;
 	justify-content:center
 	
 }
-.grid-container div{
+#grid-container div{
 	border:1px solid black;
 	padding:20px;
 	text-align:center;
