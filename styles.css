@@ -3,8 +3,7 @@
 	display:grid;
 	grid-template-columns:repeat(3,80px);
 	gap:5px;
-	justify-content:center
-	
+	justify-content:center	
 }
 .grid-container div{
 	border:1px solid black;

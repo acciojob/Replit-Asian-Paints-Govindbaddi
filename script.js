@@ -1,7 +1,7 @@
 //your JS code here. If required.
 const wantedbox=document.querySelector(".wholeform")
 wantedbox.addEventListener("submit",addingcolor)
-const resetbtn=document.getElementById("Reset")
+const resetbtn=document.getElementById("reset_button")
 resetbtn.addEventListener("click",resetItems)
 
 function addingcolor(e) {
