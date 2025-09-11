@@ -8,7 +8,14 @@ function addingcolor(e) {
 	const selectedbox=e.target[0].value
 	const selectedcolor=e.target[1].value
 	const boxIsSelected=document.getElementById(selectedbox)
-	boxIsSelected.style.backgroundColor=selectedcolor
+		if(selectedbox>-1&& selectedbox<10){
+			boxIsSelected.style.backgroundColor=selectedcolor
+		}
+		else{
+			alert("invalid id")
+		}
+	
+	
 	
 	const gridboxes=document.querySelectorAll(".grid-item")
 	for(let eachvalue of gridboxes){
